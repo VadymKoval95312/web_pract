@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="uk" data-mode="wide">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>праймова кавярня</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <!-- паста свытчера -->
+    <div class="mode-switch" aria-label="Resolution switcher">
+      <button type="button" data-set-mode="narrow">мобиле</button>
+      <button type="button" data-set-mode="wide">десктоп</button>
+    </div>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#top" aria-label="Latte Haven">
+          <img src="img/logo.avif" />
+        </a>
+        <nav class="site-nav" aria-label="Main">
+          <a href="#menu">меню</a>
+          <a href="#news">новини</a>
+        </nav>
+      </div>
+    </header>
+    <main id="top">
+      <section class="hero">
+        <div class="container">
+          <div class="rating-pill" aria-label="Google rating 4.9 out of 5">
+            <span>відгуки:</span>
+            <span class="stars" aria-hidden="true">
+              <img class="star" src="img/star.svg"/>
+              <img class="star" src="img/star.svg"/>
+              <img class="star" src="img/star.svg"/>
+              <img class="star" src="img/star.svg"/>
+              <img class="star" src="img/star.svg"/>
+            </span>
+            <span>(5.0) 228</span>
+          </div>
+          <h1 class="hero-title">так називаєма праймова кавярня</h1>
+          <p class="hero-subtitle">ідеальне місце щоб получити + вайбік і +комфортік</p>
+          <a class="btn" href="#menu">чекнути меню</a>
+        </div>
+        <div class="carousel" aria-label="Featured images">
+          <div class="carousel-stage">
+            <div class="carousel-track">
+              <!-- карусель -->
+            <div class="carousel-slide" data-slide="0">
+              <img src="img/chai.avif"/>
+            </div>
+            <div class="carousel-slide" data-slide="1">
+              <img src="img/hot-chocolate.avif"/>
+            </div>
+            <div class="carousel-slide" data-slide="2">
+              <img src="img/latte.avif"/>
+            </div>
+            <div class="carousel-slide" data-slide="3">
+              <img src="img/cafe.avif"/>
+            </div>
+            <div class="carousel-slide" data-slide="4">
+              <img src="img/cafe2.avif"/>
+            </div>
+            </div>
+             <!-- паста стрелок для карусєлі -->
+            <button class="carousel-arrow prev" type="button" aria-label="Previous">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M15 6L9 12L15 18" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </button>
+            <button class="carousel-arrow next" type="button" aria-label="Next">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <path d="M9 6L15 12L9 18" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="menu">
+        <div class="container">
+          <h2 class="section-title">паста-меню</h2>
+          <div class="menu-rows">
+            <!-- меню -->
+            <div class="menu-row">
+              <div class="menu-card">
+                <h3 class="menu-card-title">кава</h3>
+                <ul class="menu-items">
+                  <li>
+                    <div class="menu-item-head">
+                      <span class="menu-item-name">еспрессо</span>
+                      <span class="menu-item-price">₴40.00</span>
+                    </div>
+                    <p class="menu-item-desc">фіг знає ніколи не пив</p>
+                  </li>
+                  <li>
+                    <div class="menu-item-head">
+                      <span class="menu-item-name">американо</span>
+                      <span class="menu-item-price">₴30.00</span>
+                    </div>
+                    <p class="menu-item-desc">може бути</p>
+                  </li>
+                  <li>
+                    <div class="menu-item-head">
+                      <span class="menu-item-name">латте</span>
+                      <span class="menu-item-price">₴40.00</span>
+                    </div>
+                    <p class="menu-item-desc">імба
+                    </p>
+                  </li>
+                  <li>
+                    <div class="menu-item-head">
+                      <span class="menu-item-name">капучіно</span>
+                      <span class="menu-item-price">₴40.00</span>
+                    </div>
+                    <p class="menu-item-desc">норм</p>
+                  </li>
+                  <li>
+                    <div class="menu-item-head">
+                      <span class="menu-item-name">плоский білий</span>
+                      <span class="menu-item-price">₴40.00</span>
+                    </div>
+                    <p class="menu-item-desc">здивуюсь якщо це реальна назва</p>
+                  </li>
+                  <li>
+                    <div class="menu-item-head">
+                      <span class="menu-item-name">макіато</span>
+                      <span class="menu-item-price">₴40.00</span>
+                    </div>
+                    <p class="menu-item-desc">в перше про таке чую</p>
+                  </li>
+                  <li>
+                    <div class="menu-item-head">
+                      <span class="menu-item-name">моча</span>
+                      <span class="menu-item-price">₴40.00</span>
+                    </div>
+                    <p class="menu-item-desc">без коментарів
+                    </p>
+                  </li>
+                  <li>
+                    <div class="menu-item-head">
+                      <span class="menu-item-name">колд кава</span>
+                      <span class="menu-item-price">₴40.00</span>
+                    </div>
+                    <p class="menu-item-desc">саме праймове що тут є</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="menu-image">
+                <img src="img/latte.avif"/>
+              </div>
+            </div>
+            <div class="menu-row is-reverse">
+              <div class="menu-card">
+                <h3 class="menu-card-title">ше кава</h3>
+                <ul class="menu-items">
+                  <li>
+                    <div class="menu-item-head">
+                      <span class="menu-item-name">матча латте</span>
+                      <span class="menu-item-price">₴40.50</span>
+                    </div>
+                    <p class="menu-item-desc">ше якась кава</p>
+                  </li>
+                  <li>
+                    <div class="menu-item-head">
+                      <span class="menu-item-name">туремерік латте</span>
+                      <span class="menu-item-price">₴40.50</span>
+                    </div>
+                    <p class="menu-item-desc">віз стімед милк фок хелс буст
+                    </p>
+                  </li>
+                  <li>
+                    <div class="menu-item-head">
+                      <span class="menu-item-name">чай латте</span>
+                      <span class="menu-item-price">₴40.00</span>
+                    </div>
+                    <p class="menu-item-desc">латте чай</p>
+                  </li>
+                  <li>
+                    <div class="menu-item-head">
+                      <span class="menu-item-name">мед лаванда латте</span>
+                      <span class="menu-item-price">₴50.00</span>
+                    </div>
+                    <p class="menu-item-desc">думайте</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="menu-image">
+                <img src="img/chai.avif"/>
+              </div>
+            </div>
+            <div class="menu-row">
+              <div class="menu-card">
+                <h3 class="menu-card-title">чай &amp; беверагес</h3>
+                <ul class="menu-items">
+                  <li>
+                    <div class="menu-item-head">
+                      <span class="menu-item-name">чайок</span>
+                      <span class="menu-item-price">₴30.00</span>
+                    </div>
+                    <p class="menu-item-desc">прикольний</p>
+                  </li>
+                  <li>
+                    <div class="menu-item-head">
+                      <span class="menu-item-name">гарячий шоколад</span>
+                      <span class="menu-item-price">₴4.50</span>
+                    </div>
+                    <p class="menu-item-desc">скам бо шоколаду нема</p>
+                  </li>
+                  <li>
+                    <div class="menu-item-head">
+                      <span class="menu-item-name">золоте молоко</span>
+                      <span class="menu-item-price">₴4.00</span>
+                    </div>
+                    <p class="menu-item-desc">виникають питання але ладно</p>
+                  </li>
+                  <li>
+                    <div class="menu-item-head">
+                      <span class="menu-item-name">айс чайок</span>
+                      <span class="menu-item-price">$300.00</span>
+                    </div>
+                    <p class="menu-item-desc">це база</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="menu-image">
+                <img src="img/hot-chocolate.avif"/>
+              </div>
+            </div>
+            <div class="menu-row is-reverse">
+              <div class="menu-card">
+                <h3 class="menu-card-title">круасани &amp; не круасани</h3>
+                <ul class="menu-items">
+                  <li>
+                    <div class="menu-item-head">
+                      <span class="menu-item-name">круассан</span>
+                      <span class="menu-item-price">₴30.00</span>
+                    </div>
+                    <p class="menu-item-desc">бульочка</p>
+                  </li>
+                  <li>
+                    <div class="menu-item-head">
+                      <span class="menu-item-name">мафіни</span>
+                      <span class="menu-item-price">₴20.50</span>
+                    </div>
+                    <p class="menu-item-desc">шоколад, банан з горіхами</p>
+                  </li>
+                  <li>
+                    <div class="menu-item-head">
+                      <span class="menu-item-name">скунес</span>
+                      <span class="menu-item-price">₴40.00</span>
+                    </div>
+                    <p class="menu-item-desc">???</p>
+                  </li>
+                  <li>
+                    <div class="menu-item-head">
+                      <span class="menu-item-name">кукіси</span>
+                      <span class="menu-item-price">₴20.00</span>
+                    </div>
+                    <p class="menu-item-desc">печеньки</p>
+                  </li>
+                  <li>
+                    <div class="menu-item-head">
+                      <span class="menu-item-name">бровніс</span>
+                      <span class="menu-item-price">₴30.00</span>
+                    </div>
+                    <p class="menu-item-desc">рич енд фуджи вис е крекли топ</p>
+                  </li>
+                </ul>
+              </div>
+              <div class="menu-image">
+                <img src="img/croissant.avif"/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="news">
+        <div class="container">
+          <h2 class="section-title">титле</h2>
+          <div class="news-grid">
+            <article class="news-card">
+              <div class="news-image">
+                <img src="img/news-origins.avif"/>
+              </div>
+              <div class="news-date">квітень 1, 2024</div>
+              <h3 class="news-title">сталась так називаєма гойда</h3>
+            </article>
+
+            <article class="news-card">
+              <div class="news-image">
+                <img src="img/news-home.avif"/>
+              </div>
+              <div class="news-date">нафіга тута дати ладно</div>
+              <h3 class="news-title">5 секретних способів досягти прайму без смс і реєстрації</h3>
+            </article>
+
+            <article class="news-card">
+              <div class="news-image">
+                <img src="img/news-eco.avif"/>
+              </div>
+              <div class="news-date">фебруаре 6, 2024</div>
+              <h3 class="news-title">еко-френдли практисес ет прайм кавярня</h3>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container">
+          <div class="about-card">
+            <div class="about-image">
+              <img src="img/cafe.avif"/>
+            </div>
+            <div class="about-content">
+              <img class="about-logo" src="img/logo.avif" aria-hidden="true" />
+              <h2 class="about-title">паста</h2>
+              <p class="about-text">
+                прайм кавярня це козі і балдьожне місце з потужним вайбом де ти можеш відпочити від щоденного увинска і насолодитися кавою
+              </p>
+              <p class="about-text">приходи і зачилься</p>
+              <div class="about-location">
+                <p class="about-location-title">лока:</p>
+                <p class="about-location-body">прайм кавярня<br />гойда стріт<br />місто львів
+                </p>
+              </div>
+              <div class="about-actions">
+                <a class="btn" href="#menu">чек меню</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-card">
+            <img class="footer-logo" src="img/logo.avif" aria-hidden="true" />
+            <h2 class="footer-title">так називаєма праймова кавярня</h2>
+            <div class="footer-main">
+              <div class="footer-block">
+                <p class="footer-block-title">відкриті:</p>
+                <p class="footer-block-body">
+                  понеділок: − четвер: 7:00 − 24:00<br />
+                  пятниця: − субота: 12:00 − 20:00<br />
+                  неділя: - 00:00 − 24:00</p>
+              </div>
+              <div class="footer-block">
+                <p class="footer-block-title">номер:</p>
+                <p class="footer-block-body">+380 (00) 000 0000</p>
+              </div>
+              <div class="footer-block">
+                <p class="footer-block-body">
+                  праймова кавярня<br />
+                  гойда стріт<br />
+                  місто львів
+                </p>
+              </div>
+            <div class="footer-bottom">
+              <div class="footer-copy">©2026 коваль вадим</div>
+              <div class="footer-links">
+                <a href="#">приваси полиси</a>
+                <a href="#">кукіси</a>
+                <a href="#">термс &amp; кондишинс</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <script src="/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+.page{max-width:1100px;margin:0 auto;padding:20px 16px}
+.title{font-size:28px;font-weight:600;margin:10px 0 18px}
+.state{padding:14px 0;color:#6b6b6b}
+
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+
+.card{border:1px solid #e8e8e8;border-radius:6px;padding:14px;background:#fff}
+.cardTop{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+.name{font-weight:600;font-size:16px}
+.meta{margin-top:2px;color:#707070;font-size:13px}
+
+.btn{border:1px solid #111;background:#111;color:#fff;border-radius:4px;padding:8px 10px;font-weight:600;cursor:pointer}
+.btnOutline{border:1px solid #d5d5d5;background:#fff;border-radius:4px;padding:6px 10px;font-weight:600;cursor:pointer}
+
+.postsBlock{margin-top:12px;border-top:1px solid #f0f0f0;padding-top:10px}
+.smallState{color:#707070;font-size:13px;padding:8px 0}
+
+.postsList{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
+.postRow{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.postTitle{flex:1;min-width:0;font-size:13px;color:#222;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+@media (max-width:850px){
+  .grid{grid-template-columns:1fr}
+}

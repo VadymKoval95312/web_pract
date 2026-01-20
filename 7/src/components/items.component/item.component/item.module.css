@@ -1,0 +1,13 @@
+.card{display:flex;flex-direction:column;gap:10px}
+
+.media{position:relative;border:1px solid #d7d7d7;background:#fff;aspect-ratio:1/1;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.img{width:100%;height:100%;object-fit:contain;display:block;padding:16px}
+
+.sale{position:absolute;top:10px;right:-32px;background:#fa3a47;color:#fff;font-weight:800;font-size:12px;letter-spacing:.6px;padding:8px 50px;transform:rotate(45deg)}
+
+.name{margin:0;font-size:15px;font-weight:800;color:#111;line-height:1.25;max-width:22ch}
+
+.priceRow{display:flex;gap:10px;align-items:baseline;font-size:22px;color:#777}
+.price{color:#777}
+.priceSale{color:#fa3a47}
+.priceOld{color:#777;text-decoration:line-through}
